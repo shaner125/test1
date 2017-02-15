@@ -7,6 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#778898"
     tools:context=".UserAreaActivity">
 
     <EditText
@@ -19,6 +20,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:ems="10"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
         android:hint="Username" />
 
     <EditText
@@ -32,6 +35,8 @@
         android:layout_below="@+id/etUsername"
         android:ems="10"
         android:hint="Password"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
         android:inputType="textPassword" />
 
     <Button
@@ -43,7 +48,10 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/etPassword"
-        android:text="Sign In" />
+        android:text="Sign In"
+        android:background="#00BFFF"
+        android:textColor="@android:color/white"
+        />
 
     <TextView
         android:layout_width="wrap_content"
@@ -52,5 +60,6 @@
         android:text="Register Here"
         android:id="@+id/tvRegisterLink"
         android:layout_below="@+id/bSignIn"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"/>
 </RelativeLayout>
